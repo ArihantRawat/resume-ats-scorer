@@ -1,0 +1,27 @@
+{
+  "name": "resume-ats-scorer",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "sanity": "tsx scripts/sanity-check.ts"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "jspdf": "^4.2.1",
+    "lucide-react": "latest",
+    "pdfjs-dist": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "latest"
+  }
+}
